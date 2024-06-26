@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+#btn-change {
+    color: #101010;
+    padding: 8px 16px;
+    font-size: 20px;
+    border: 2px solid #9a9a9a;
+    border-radius: 6px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#btn-change:hover {
+    box-shadow: 0 3px 13px #404040;
+    transform: translateY(-3px);
+}
